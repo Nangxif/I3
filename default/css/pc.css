@@ -1,0 +1,949 @@
+@font-face {
+	font-family: 'Source-Han-Ligh';
+	src: url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46865/5af3e2d2f629d911a4b16b96.gif?r=74326354797');
+	src: url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46865/5af3e2d2f629d911a4b16b96.gif?r=74326354797?#iefix') format('embedded-opentype'),
+	url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46865/5af3e2d2f629d911a4b16b96.png?r=74326354797') format('woff2'),
+	url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46865/5af3e2d2f629d911a4b16b96.bmp?r=74326354797') format('woff'),
+	url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46865/5af3e2d2f629d911a4b16b96.jpg?r=74326354797') format('truetype');
+	font-weight: normal;font-style: normal;
+}
+@font-face {
+	font-family: 'SiYuanRegular';
+	src: url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46827/5af3ed07f629d911a4b16baa.gif?r=74328967328');
+	src: url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46827/5af3ed07f629d911a4b16baa.gif?r=74328967328?#iefix') format('embedded-opentype'),
+	url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46827/5af3ed07f629d911a4b16baa.png?r=74328967328') format('woff2'),
+	url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46827/5af3ed07f629d911a4b16baa.bmp?r=74328967328') format('woff'),
+	url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46827/5af3ed07f629d911a4b16baa.jpg?r=74328967328') format('truetype');
+	font-weight: normal;font-style: normal;}
+
+
+@media screen and (min-width: 768px){
+    body{
+    	width: 100%;
+    }
+}
+@media screen and (max-width: 767px){
+    body{
+        width:736px;
+    }
+}
+.pic_1{
+	position: relative;
+	width: 100%;
+	padding-top: 52.08%;
+	background-image: url('../img/background1.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat; 
+	overflow: hidden;
+	color: black;
+}
+.blue{
+	top: 54.1%;
+	left: 66.25%;
+	height: 29.7%;
+	width: 9.73%;
+	z-index: 2;
+}
+.pink{
+	top: 54.1%;
+	left:79.25%;
+	height: 26.4%;
+	width: 8.64%;
+}
+.pic_2{
+	position: relative;
+	width: 100%;
+	padding-top: 41.6%;
+	background-image: url('../img/background2.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat; 
+	overflow: hidden;
+	color: black;
+}
+.pic_3{
+	position: relative;
+	width: 100%;
+	padding-top: 43%;
+	background-image: url('../img/background3.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat; 
+	overflow: hidden;
+	color: black;
+}
+.pic_4{
+	position: relative;
+	width: 100%;
+	padding-top: 43%;
+	background-image: url('../img/background4.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat; 
+	overflow: hidden;
+	color: black;
+}
+.pic_5{
+	position: relative;
+	width: 100%;
+	padding-top: 43%;
+	background-image: url('../img/background5.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat; 
+	overflow: hidden;
+	color: black;
+}
+.pic_6{
+	position: relative;
+	width: 100%;
+	padding-top: 56.2%;
+	background-image: url('../img/background6.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat; 
+	overflow: hidden;
+	color: black;
+}
+.pic_7{
+	position: relative;
+	width: 100%;
+	padding-top: 46.88%;
+	background-image: url('../img/background7.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat; 
+	overflow: hidden;
+	color: black;
+}
+.pic_8{
+	position: relative;
+	width: 100%;
+	padding-top: 51.806%;
+	background-image: url('../img/background8.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat; 
+	overflow: hidden;
+	color: black;
+}
+.pic_9{
+	position: relative;
+	width: 100%;
+	padding-top: 97.031%;
+	background-image: url('../img/background9.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat; 
+	overflow: hidden;
+	color: black;
+}
+
+
+
+
+
+.pic_1_tip,.pic_2_tip,.pic_3_tip,.pic_4_tip,.pic_5_tip,.pic_6_tip,.pic_7_tip,.pic_8_tip,.pic_3_photos,.pic_4_photos,.pic_5_photo,.pic_5_photos,.pic_7_photos,.pic_9_photos_1,.pic_9_photos_2,.pic_9_photos_3,.pic_9_photos_4,.pic_9_photos_5,.pic_9_photos_6{
+	position: absolute;
+	z-index: 1;
+}
+/*
+第一个界面的文字位置
+ */
+.pic_1_tip{
+	top: 30%;
+	left: 57.8646%;
+}
+.pic_1_tip_1{
+	margin-top: 5%;
+	opacity: 0;
+	font-family: "Source-Han-Ligh";
+}
+.pic_1_tip_2{
+	margin-top: 5%;
+	opacity: 0;
+	font-family: "Source-Han-Ligh";
+}
+
+/*
+第二个界面的文字位置
+ */
+.pic_2_tip{
+	width: 100%;
+	top: 12.875%;
+	text-align:center;
+}
+.pic_2_tip_1{
+	margin-top: 1%;
+	opacity: 0;
+	font-family: "SiYuanRegular";
+}
+.pic_2_tip_2{
+	margin-top: 1%;
+	opacity: 0;
+}
+.pic_2_tip_3{
+	margin-top: 0%;
+	opacity: 0;
+}
+.pic_2_tip_4{
+	margin-top: 0%;
+	opacity: 0;
+}
+
+
+/*
+第三个界面的文字位置
+ */
+.pic_3_tip{
+	margin-left: 32%;
+	width: 64%;
+	top: 14.375%;
+	text-align:center;
+}
+.pic_3_tip_1{
+	margin-top: 1%;
+	opacity: 0;
+	font-family: "SiYuanRegular";
+}
+.pic_3_tip_2{
+	margin-top: 1%;
+	opacity: 0;
+}
+.pic_3_tip_3{
+	margin-top: 1%;
+	opacity: 0;
+}
+.pic_3_tip_4{
+	margin-top: 1%;
+	opacity: 0;
+}
+
+
+/*
+第三个界面的小图标位置
+ */
+.pic_3_photos{
+	width: 42%;
+	height: 35.15%;
+	left: 41.6927%;
+	top: 50.375%;
+	overflow: hidden;
+	font-size: 0px;
+}
+.pic_3_photos img{
+	position: static;
+	height: 55.19%;
+}
+.pic_3_photos div{
+	position: relative;
+	display: inline-block;
+	/*top: 4%;
+	opacity:0;*/
+	width: 25%;
+	height: 50%;
+	text-align:center;
+	font-family: "SiYuanRegular";
+}
+
+/*
+第四个界面的文字位置
+ */
+.pic_4_tip{
+	margin-left: 33.385%;
+	width: 22.5%;
+	top: 30.875%;
+}
+.pic_4_tip_1{
+	margin-top: 4%;
+	opacity: 1;
+	text-align:left;
+	font-family: "SiYuanRegular";
+}
+.pic_4_tip_2{
+	margin-top: 4%;
+	opacity: 1;
+	text-align:left;
+}
+/*
+第四个界面的小图标位置
+ */
+.pic_4_photos{
+	width: 0%;
+	height: 0%;
+	left: 75.765%;
+	top: 24.875%;
+}
+.pic_4_photos img{
+	position: static;
+	width: 100%;
+	height: 100%;
+}
+
+
+.pic_4_position{
+	width:18.85% !important;
+	height:8.125% !important;
+	top:16.75% !important;
+	left:56.875% !important;
+}
+/*
+第四个页面对话框的动画
+ */
+.move_1
+{
+	animation:mymove_1 1s infinite;
+	-webkit-animation:mymove_1 1s infinite; /*Safari and Chrome*/
+	animation-iteration-count:1;
+	-webkit-animation-iteration-count:1; /* Safari 和 Chrome */
+	animation-fill-mode:forwards;
+}
+
+@keyframes mymove_1
+{
+	from {
+		width: 0%;
+		height:0%;
+		left:75.765%;
+		top: 24.875%;
+	}
+	to {
+		width: 18.85%;
+		height:8.125%;
+		left:56.875%;
+		top: 16.75%;
+	}
+}
+
+@-webkit-keyframes mymove_1 /*Safari and Chrome*/
+{
+	from {
+		width: 0%;
+		height:0%;
+		left:75.765%;
+		top: 24.875%;
+	}
+	to {
+		width: 18.85%;
+		height:8.125%;
+		left:56.875%;
+		top: 16.75%;
+	}
+}
+/*
+第五个界面的文字位置
+ */
+.pic_5_tip{
+	margin-left: 61.40625%;
+	width: 24.8438%;
+	top: 31.375%;
+}
+.pic_5_tip_1{
+	margin-top: 4%;
+	opacity: 0;
+	text-align:left;
+	font-family: "SiYuanRegular";
+}
+.pic_5_tip_2{
+	margin-top: 4%;
+	opacity: 0;
+	text-align:left;
+}
+
+/*
+第五个界面的小图标位置
+ */
+.pic_5_photo{
+	width: 0%;
+	height: 0%;
+	left: 23.07%;
+	top: 29.625%;
+}
+.pic_5_photo img{
+	position: static;
+	width: 100%;
+	height: 100%;
+}
+.pic_5_photos{
+	width: 0%;
+	height: 0%;
+	left: 40.36%;
+	top: 57.875%;
+}
+.pic_5_photos img{
+	position: static;
+	width: 100%;
+	height: 100%;
+}
+.pic_5_position{
+	width:18.85% !important;
+	height:8.125% !important;
+	top:21.5% !important;
+	left:23.07% !important;
+}
+.pic_5_positions{
+	width:14.32% !important;
+	height:8.125% !important;
+	top:49.75% !important;
+	left:26.04% !important;
+}
+
+/*
+第五个页面对话框一的动画
+ */
+.move_2
+{
+	animation:mymove_2 1s infinite;
+	-webkit-animation:mymove_2 1s infinite; /*Safari and Chrome*/
+	animation-iteration-count:1;
+	-webkit-animation-iteration-count:1; /* Safari 和 Chrome */
+	animation-fill-mode:forwards;
+}
+
+@keyframes mymove_2
+{
+	from {
+		width: 0%;
+		height:0%;
+		left:23.07%;
+		top: 29.625%;
+	}
+	to {
+		width: 18.85%;
+		height:8.125%;
+		left:23.07%;
+		top: 21.5%;
+	}
+}
+
+@-webkit-keyframes mymove_2 /*Safari and Chrome*/
+{
+	from {
+		width: 0%;
+		height:0%;
+		left:23.07%;
+		top: 29.625%;
+	}
+	to {
+		width: 18.85%;
+		height:8.125%;
+		left:23.07%;
+		top: 21.5%;
+	}
+}
+
+/*
+第五个页面对话框二的动画
+ */
+.move_3
+{
+	animation:mymove_3 1s infinite;
+	-webkit-animation:mymove_3 1s infinite; /*Safari and Chrome*/
+	animation-iteration-count:1;
+	-webkit-animation-iteration-count:1; /* Safari 和 Chrome */
+	animation-fill-mode:forwards;
+	animation-delay:1s;
+	-webkit-animation-delay:1s; /* Safari 和 Chrome */
+}
+
+@keyframes mymove_3
+{
+	from {
+		width: 0%;
+		height: 0%;
+		left: 40.36%;
+		top: 57.875%;
+	}
+	to {
+		width: 14.32%;
+		height:8.125%;
+		left:26.04%;
+		top: 49.75%;
+	}
+}
+
+@-webkit-keyframes mymove_3 /*Safari and Chrome*/
+{
+	from {
+		width: 0%;
+		height: 0%;
+		left: 40.36%;
+		top: 57.875%;
+	}
+	to {
+		width: 14.32%;
+		height:8.125%;
+		left:26.04%;
+		top: 49.75%;
+	}
+}
+
+/*
+第六个界面的文字位置
+ */
+.pic_6_tip{
+	width: 100%;
+	top: 10.8055%;
+	text-align:center;
+}
+.pic_6_tip_1{
+	margin-top: 1%;
+	opacity: 0;
+	font-family: "SiYuanRegular";
+}
+.pic_6_tip_2{
+	margin-top: 1%;
+	opacity: 0;
+}
+
+/*
+第七个界面的文字位置
+ */
+.pic_7_tip{
+	width: 46.666666667%;
+	top: 18.1111%;
+	left: 46.71875%;
+}
+.pic_7_tip_1{
+	margin-top: 1%;
+	opacity: 0;
+	font-family: "SiYuanRegular";
+}
+.pic_7_tip_2{
+	margin-top: 1%;
+	opacity: 0;
+}
+.pic_7_tip_3{
+	margin-top: 1%;
+	opacity: 0;
+}
+
+/*
+第七个界面的小图标位置
+ */
+.pic_7_photos{
+	width: 54.0625%;
+	height: 35.15%;
+	left: 42.890625%;
+	top: 44.111111%;
+	overflow: hidden;
+	font-size: 0px;
+}
+.pic_7_photos img{
+	position: static;
+	height: 55.19%;
+}
+.pic_7_photos div{
+	position: relative;
+	display: inline-block;
+	width: 16.666666666666%;
+	height: 50%;
+	text-align:center;
+	font-family: "SiYuanRegular";
+}
+
+
+/*
+第八个界面的文字位置
+ */
+.pic_8_tip{
+	width: 100%;
+	top: 11.0442%;
+}
+.pic_8_tip_1{
+	margin-top: 1%;
+	opacity: 1;
+	font-family: "SiYuanRegular";
+}
+.pic_8_tip_2{
+	margin-top: 1%;
+	opacity: 1;
+}
+/*
+第九个界面的文字位置和图片位置
+ */
+.pic_9_photos_1,.pic_9_photos_2,.pic_9_photos_3,.pic_9_photos_4,.pic_9_photos_5,.pic_9_photos_6{
+	width: 50%;
+	height: 33.333333333%
+}
+.pic_9_photos_1 p,.pic_9_photos_4 p,.pic_9_photos_5 p{
+	font-family: "Source-Han-Ligh";
+}
+.pic_9_photos_2 img,.pic_9_photos_3 img,.pic_9_photos_6 img{
+	width: 100%;
+	height: 100%;
+}
+.pic_9_photos_1{
+	top:0%;
+	left: -25%;
+	opacity: 0;
+	padding-top:13%; 
+}
+.pic_9_photos_2{
+	top:0%;
+	left: 75%;
+	opacity: 0;
+}
+.pic_9_photos_3{
+	top:33.3333333333%;
+	left: -25%;
+	opacity: 0;
+}
+.pic_9_photos_4{
+	top:33.3333333333%;
+	left: 75%;
+	opacity: 0;
+	padding-top:13%;
+}
+.pic_9_photos_5{
+	top:66.6666666666%;
+	left: -25%;
+	opacity: 0;
+	padding-top:13%;
+}
+.pic_9_photos_6{
+	top:66.6666666666%;
+	left: 75%;
+	opacity: 0;
+}
+
+
+
+
+
+
+
+
+/*字体定义*/
+.pic_2_tip_2,.pic_2_tip_3,.pic_2_tip_4,.pic_3_tip_2,.pic_3_tip_3,.pic_3_tip_4,.pic_4_tip_2,.pic_5_tip_2,.pic_6_tip_2,.pic_7_tip_2,.pic_7_tip_3,.pic_8_tip_2{
+	font-family: "SiYuanRegular";
+	font-weight: 500;
+}
+@media screen and (max-width: 1920px) and (min-width: 1780px){
+	.pic_1_tip_1{
+		font-size: 85px;
+	}
+	.pic_1_tip_2{
+		font-size: 48px;
+		padding-top: 14px;
+	}
+	.pic_2_tip_1,.pic_3_tip_1,.pic_4_tip_1,.pic_5_tip_1,.pic_6_tip_1,.pic_7_tip_1,.pic_8_tip_1{
+		font-size: 54px;
+	}
+	.pic_2_tip_2,.pic_3_tip_2,.pic_4_tip_2,.pic_5_tip_2,.pic_6_tip_2,.pic_7_tip_2,.pic_8_tip_2{
+		padding-top: 14px;
+	}
+	.pic_2_tip_2,.pic_2_tip_3,.pic_2_tip_4,.pic_3_tip_2,.pic_3_tip_3,.pic_3_tip_4,.pic_6_tip_2,.pic_7_tip_2,.pic_7_tip_3,.pic_8_tip_2{
+		font-size: 26px;
+		line-height: 41px;
+	}
+	.pic_4_tip_2,.pic_5_tip_2{
+		font-size: 26px;
+		line-height: 40px;
+	}
+	.pic_3_photos p,.pic_7_photos p{
+		font-size: 24px;
+		line-height: 58px;
+	}
+	.pic_9_photos_1 p,.pic_9_photos_4 p,.pic_9_photos_5 p{
+		font-size: 27px;
+		line-height: 44px;
+	}
+}
+@media screen and (max-width: 1779px) and (min-width: 1620px){
+	.pic_1_tip_1{
+		font-size: 75px;
+	}
+	.pic_1_tip_2{
+		font-size: 39px;
+		padding-top: 13px;
+	}
+	.pic_2_tip_1,.pic_3_tip_1,.pic_4_tip_1,.pic_5_tip_1,.pic_6_tip_1,.pic_7_tip_1,.pic_8_tip_1{
+		font-size: 47px;
+	}
+	.pic_2_tip_2,.pic_3_tip_2,.pic_4_tip_2,.pic_5_tip_2,.pic_6_tip_2,.pic_7_tip_2,.pic_8_tip_2{
+		padding-top: 14px;
+	}
+	.pic_2_tip_2,.pic_2_tip_3,.pic_2_tip_4,.pic_3_tip_2,.pic_3_tip_3,.pic_3_tip_4,.pic_6_tip_2,.pic_7_tip_2,.pic_7_tip_3,.pic_8_tip_2{
+		font-size: 20px;
+		line-height: 25px;
+	}
+	.pic_4_tip_2,.pic_5_tip_2{
+		font-size: 20px;
+		line-height: 36px;
+	}
+	.pic_3_photos p,.pic_7_photos p{
+		font-size: 22px;
+		line-height: 54px;
+	}
+	.pic_9_photos_1 p,.pic_9_photos_4 p,.pic_9_photos_5 p{
+		font-size: 26px;
+		line-height: 44px;
+	}
+}
+@media screen and (max-width: 1619px) and (min-width: 1500px){
+	.pic_1_tip_1{
+		font-size: 68px;
+	}
+	.pic_1_tip_2{
+		font-size: 36px;
+		padding-top: 13px;
+	}
+	.pic_2_tip_1,.pic_3_tip_1,.pic_4_tip_1,.pic_5_tip_1,.pic_6_tip_1,.pic_7_tip_1,.pic_8_tip_1{
+		font-size: 43px;
+	}
+	.pic_2_tip_2,.pic_3_tip_2,.pic_4_tip_2,.pic_5_tip_2,.pic_6_tip_2,.pic_7_tip_2,.pic_8_tip_2{
+		padding-top: 14px;
+	}
+	.pic_2_tip_2,.pic_2_tip_3,.pic_2_tip_4,.pic_3_tip_2,.pic_3_tip_3,.pic_3_tip_4,.pic_6_tip_2,.pic_7_tip_2,.pic_7_tip_3,.pic_8_tip_2{
+		font-size: 20px;
+		line-height: 24px;
+	}
+	.pic_4_tip_2,.pic_5_tip_2{
+		font-size: 20px;
+		line-height: 34px;
+	}
+	.pic_3_photos p,.pic_7_photos p{
+		font-size: 20px;
+		line-height: 50px;
+	}
+	.pic_9_photos_1 p,.pic_9_photos_4 p,.pic_9_photos_5 p{
+		font-size: 25px;
+		line-height: 44px;
+	}
+}
+
+@media screen and (max-width: 1499px) and (min-width: 1324px){
+	.pic_1_tip_1{
+		font-size: 60px;
+	}
+	.pic_1_tip_2{
+		font-size: 34px;
+		padding-top: 13px;
+	}
+	.pic_2_tip_1,.pic_3_tip_1,.pic_4_tip_1,.pic_5_tip_1,.pic_6_tip_1,.pic_7_tip_1,.pic_8_tip_1{
+		font-size: 38px;
+	}
+	.pic_2_tip_2,.pic_3_tip_2,.pic_4_tip_2,.pic_5_tip_2,.pic_6_tip_2,.pic_7_tip_2,.pic_8_tip_2{
+		padding-top: 13px;
+	}
+	.pic_2_tip_2,.pic_2_tip_3,.pic_2_tip_4,.pic_3_tip_2,.pic_3_tip_3,.pic_3_tip_4,.pic_6_tip_2,.pic_7_tip_2,.pic_7_tip_3,.pic_8_tip_2{
+		font-size: 19px;
+		line-height: 23px;
+	}
+	.pic_4_tip_2,.pic_5_tip_2{
+		font-size: 19px;
+		line-height: 32px;
+	}
+	.pic_3_photos p,.pic_7_photos p{
+		font-size: 18px;
+		line-height: 45px;
+	}
+	.pic_9_photos_1 p,.pic_9_photos_4 p,.pic_9_photos_5 p{
+		font-size: 25px;
+		line-height: 42px;
+	}
+}
+@media screen and (max-width: 1323px) and (min-width: 1201px){
+	.pic_1_tip_1{
+		font-size: 55px;
+	}
+	.pic_1_tip_2{
+		font-size: 31px;
+		padding-top: 13px;
+	}
+	.pic_2_tip_1,.pic_3_tip_1,.pic_4_tip_1,.pic_5_tip_1,.pic_6_tip_1,.pic_7_tip_1,.pic_8_tip_1{
+		font-size: 34px;
+	}
+	.pic_2_tip_2,.pic_3_tip_2,.pic_4_tip_2,.pic_5_tip_2,.pic_6_tip_2,.pic_7_tip_2,.pic_8_tip_2{
+		padding-top: 13px;
+	}
+	.pic_2_tip_2,.pic_2_tip_3,.pic_2_tip_4,.pic_3_tip_2,.pic_3_tip_3,.pic_3_tip_4,.pic_6_tip_2,.pic_7_tip_2,.pic_7_tip_3,.pic_8_tip_2{
+		font-size: 18px;
+		line-height: 22px;
+	}
+	.pic_4_tip_2,.pic_5_tip_2{
+		font-size: 18px;
+		line-height: 30px;
+	}
+	.pic_3_photos p,.pic_7_photos p{
+		font-size: 15px;
+		line-height: 35px;
+	}
+	.pic_9_photos_1 p,.pic_9_photos_4 p,.pic_9_photos_5 p{
+		font-size: 24px;
+		line-height: 38px;
+	}
+	.pic_7_tip{
+		width: 47.666666667%;
+		top: 18.1111%;
+		left: 46.71875%;
+	}
+}
+@media screen and (max-width: 1200px) and (min-width: 1098px){
+	.pic_1_tip_1{
+		font-size: 50px;
+	}
+	.pic_1_tip_2{
+		font-size: 27px;
+		padding-top: 13px;
+	}
+	.pic_2_tip_1,.pic_3_tip_1,.pic_4_tip_1,.pic_5_tip_1,.pic_6_tip_1,.pic_7_tip_1,.pic_8_tip_1{
+		font-size: 31px;
+	}
+	.pic_2_tip_2,.pic_3_tip_2,.pic_4_tip_2,.pic_5_tip_2,.pic_6_tip_2,.pic_7_tip_2,.pic_8_tip_2{
+		padding-top: 13px;
+	}
+	.pic_2_tip_2,.pic_2_tip_3,.pic_2_tip_4,.pic_3_tip_2,.pic_3_tip_3,.pic_3_tip_4,.pic_6_tip_2,.pic_7_tip_2,.pic_7_tip_3,.pic_8_tip_2{
+		font-size: 17px;
+		line-height: 21px;
+	}
+	.pic_4_tip_2,.pic_5_tip_2{
+		font-size: 17px;
+		line-height: 28px;
+	}
+	.pic_3_photos p,.pic_7_photos p{
+		font-size: 14px;
+		line-height: 32px;
+	}
+	.pic_9_photos_1 p,.pic_9_photos_4 p,.pic_9_photos_5 p{
+		font-size: 23px;
+		line-height: 34px;
+	}
+}
+@media screen and (max-width: 1097px) and (min-width: 993px){
+	.pic_1_tip_1{
+		font-size: 45px;
+	}
+	.pic_1_tip_2{
+		font-size: 24px;
+		padding-top: 13px;
+	}
+	.pic_2_tip_1,.pic_3_tip_1,.pic_4_tip_1,.pic_5_tip_1,.pic_6_tip_1,.pic_7_tip_1,.pic_8_tip_1{
+		font-size: 28px;
+	}
+	.pic_2_tip_2,.pic_3_tip_2,.pic_4_tip_2,.pic_5_tip_2,.pic_6_tip_2,.pic_7_tip_2,.pic_8_tip_2{
+		padding-top: 12px;
+	}
+	.pic_2_tip_2,.pic_2_tip_3,.pic_2_tip_4,.pic_3_tip_2,.pic_3_tip_3,.pic_3_tip_4,.pic_6_tip_2,.pic_7_tip_2,.pic_7_tip_3,.pic_8_tip_2{
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.pic_4_tip_2,.pic_5_tip_2{
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.pic_3_photos p,.pic_7_photos p{
+		font-size: 13px;
+		line-height: 28px;
+	}
+	.pic_9_photos_1 p,.pic_9_photos_4 p,.pic_9_photos_5 p{
+		font-size: 22px;
+		line-height: 32px;
+	}
+}
+@media screen and (max-width: 992px) and (min-width: 852px){
+	.pic_1_tip_1{
+		font-size: 39px;
+	}
+	.pic_1_tip_2{
+		font-size: 20px;
+		padding-top: 12px;
+	}
+	.pic_2_tip_1,.pic_3_tip_1,.pic_4_tip_1,.pic_5_tip_1,.pic_6_tip_1,.pic_7_tip_1,.pic_8_tip_1{
+		font-size: 24px;
+	}
+	.pic_2_tip_2,.pic_3_tip_2,.pic_4_tip_2,.pic_5_tip_2,.pic_6_tip_2,.pic_7_tip_2,.pic_8_tip_2{
+		padding-top: 12px;
+	}
+	.pic_2_tip_2,.pic_2_tip_3,.pic_2_tip_4,.pic_3_tip_2,.pic_3_tip_3,.pic_3_tip_4,.pic_6_tip_2,.pic_7_tip_2,.pic_7_tip_3,.pic_8_tip_2{
+		font-size: 15px;
+		line-height: 21px;
+	}
+	.pic_4_tip_2,.pic_5_tip_2{
+		font-size: 15px;
+		line-height: 21px;
+	}
+	.pic_3_photos p,.pic_7_photos p{
+		font-size: 12px;
+		line-height: 23px;
+	}
+	.pic_9_photos_1 p,.pic_9_photos_4 p,.pic_9_photos_5 p{
+		font-size: 19px;
+		line-height: 30px;
+	}
+	.pic_7_tip{
+		width: 49.666666667%;
+		top: 18.1111%;
+		left: 45.51875%;
+	}
+}
+@media screen and (max-width: 851px) and (min-width: 768px){
+	.pic_1_tip_1{
+		font-size: 35px;
+	}
+	.pic_1_tip_2{
+		font-size: 19px;
+		padding-top: 12px;
+	}
+	.pic_2_tip_1,.pic_3_tip_1,.pic_4_tip_1,.pic_5_tip_1,.pic_6_tip_1,.pic_7_tip_1,.pic_8_tip_1{
+		font-size: 22px;
+	}
+	.pic_2_tip_2,.pic_3_tip_2,.pic_4_tip_2,.pic_5_tip_2,.pic_6_tip_2,.pic_7_tip_2,.pic_8_tip_2{
+		padding-top: 12px;
+	}
+	.pic_2_tip_2,.pic_2_tip_3,.pic_2_tip_4,.pic_3_tip_2,.pic_3_tip_3,.pic_3_tip_4,.pic_6_tip_2,.pic_7_tip_2,.pic_7_tip_3,.pic_8_tip_2{
+		font-size: 14px;
+		line-height: 12px;
+	}
+	.pic_4_tip_2,.pic_5_tip_2{
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.pic_3_photos p,.pic_7_photos p{
+		font-size: 12px;
+		line-height: 23px;
+	}
+	.pic_9_photos_1 p,.pic_9_photos_4 p,.pic_9_photos_5 p{
+		font-size: 17px;
+		line-height: 28px;
+	}
+	.pic_7_tip{
+		width: 54.666666667%;
+		top: 18.1111%;
+		left: 43.71875%;
+	}
+}
+@media screen and (max-width: 767px){
+	.pic_1_tip_1{
+		font-size: 32px;
+	}
+	.pic_1_tip_2{
+		font-size: 17px;
+		padding-top: 11px;
+	}
+	.pic_2_tip_1,.pic_3_tip_1,.pic_4_tip_1,.pic_5_tip_1,.pic_6_tip_1,.pic_7_tip_1,.pic_8_tip_1{
+		font-size: 21px;
+	}
+	.pic_2_tip_2,.pic_3_tip_2,.pic_4_tip_2,.pic_5_tip_2,.pic_6_tip_2,.pic_7_tip_2,.pic_8_tip_2{
+		padding-top: 10px;
+	}
+	.pic_2_tip_2,.pic_2_tip_3,.pic_2_tip_4,.pic_3_tip_2,.pic_3_tip_3,.pic_3_tip_4,.pic_6_tip_2,.pic_7_tip_2,.pic_7_tip_3,.pic_8_tip_2{
+		font-size: 13px;
+		line-height: 10px;
+	}
+	.pic_4_tip_2,.pic_5_tip_2{
+		font-size: 13px;
+		line-height: 20px;
+	}
+	.pic_3_photos p,.pic_7_photos p{
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.pic_9_photos_1 p,.pic_9_photos_4 p,.pic_9_photos_5 p{
+		font-size: 15px;
+		line-height: 27px;
+	}
+	.pic_7_tip{
+		width: 51.666666667%;
+		top: 18.1111%;
+		left: 44.51875%;
+	}
+}
+
+
+.brand-logo img,.layer-popup img,.imgs-mask img{
+	position: static;
+}

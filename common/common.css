@@ -1,0 +1,24 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+html,body{
+	color: #000;
+	line-height: normal;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+div{
+	border: 0px;
+}
+p{
+	text-align: center;
+}
+img{
+	position: absolute;
+	z-index: 1;
+}
