@@ -7,16 +7,16 @@
 	url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46865/5af3e2d2f629d911a4b16b96.jpg?r=74326354797') format('truetype');
 	font-weight: normal;font-style: normal;
 }
+
 @font-face {
 	font-family: 'SiYuanRegular';
-	src: url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46827/5af3ed07f629d911a4b16baa.gif?r=74328967328');
-	src: url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46827/5af3ed07f629d911a4b16baa.gif?r=74328967328?#iefix') format('embedded-opentype'),
-	url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46827/5af3ed07f629d911a4b16baa.png?r=74328967328') format('woff2'),
-	url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46827/5af3ed07f629d911a4b16baa.bmp?r=74328967328') format('woff'),
-	url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46827/5af3ed07f629d911a4b16baa.jpg?r=74328967328') format('truetype');
-	font-weight: normal;font-style: normal;}
-
-
+	src: url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46827/5af4de07f629dd11a4d2bbdf.gif?r=74390663203');
+	src: url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46827/5af4de07f629dd11a4d2bbdf.gif?r=74390663203?#iefix') format('embedded-opentype'),
+	url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46827/5af4de07f629dd11a4d2bbdf.png?r=74390663203') format('woff2'),
+	url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46827/5af4de07f629dd11a4d2bbdf.bmp?r=74390663203') format('woff'),
+	url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46827/5af4de07f629dd11a4d2bbdf.jpg?r=74390663203') format('truetype');
+	font-weight: normal;font-style: normal;
+}
 @media screen and (min-width: 768px){
     body{
     	width: 100%;
@@ -751,8 +751,8 @@
 		padding-top: 13px;
 	}
 	.pic_2_tip_2,.pic_2_tip_3,.pic_2_tip_4,.pic_3_tip_2,.pic_3_tip_3,.pic_3_tip_4,.pic_6_tip_2,.pic_7_tip_2,.pic_7_tip_3,.pic_8_tip_2{
-		font-size: 18px;
-		line-height: 22px;
+		font-size: 16px;
+		line-height: 15px;
 	}
 	.pic_4_tip_2,.pic_5_tip_2{
 		font-size: 18px;
@@ -787,8 +787,8 @@
 		padding-top: 13px;
 	}
 	.pic_2_tip_2,.pic_2_tip_3,.pic_2_tip_4,.pic_3_tip_2,.pic_3_tip_3,.pic_3_tip_4,.pic_6_tip_2,.pic_7_tip_2,.pic_7_tip_3,.pic_8_tip_2{
-		font-size: 17px;
-		line-height: 21px;
+		font-size: 15px;
+		line-height: 14px;
 	}
 	.pic_4_tip_2,.pic_5_tip_2{
 		font-size: 17px;
@@ -818,8 +818,8 @@
 		padding-top: 12px;
 	}
 	.pic_2_tip_2,.pic_2_tip_3,.pic_2_tip_4,.pic_3_tip_2,.pic_3_tip_3,.pic_3_tip_4,.pic_6_tip_2,.pic_7_tip_2,.pic_7_tip_3,.pic_8_tip_2{
-		font-size: 16px;
-		line-height: 20px;
+		font-size: 14px;
+		line-height: 13px;
 	}
 	.pic_4_tip_2,.pic_5_tip_2{
 		font-size: 16px;
@@ -849,8 +849,8 @@
 		padding-top: 12px;
 	}
 	.pic_2_tip_2,.pic_2_tip_3,.pic_2_tip_4,.pic_3_tip_2,.pic_3_tip_3,.pic_3_tip_4,.pic_6_tip_2,.pic_7_tip_2,.pic_7_tip_3,.pic_8_tip_2{
-		font-size: 15px;
-		line-height: 21px;
+		font-size: 13px;
+		line-height: 12px;
 	}
 	.pic_4_tip_2,.pic_5_tip_2{
 		font-size: 15px;
@@ -885,8 +885,8 @@
 		padding-top: 12px;
 	}
 	.pic_2_tip_2,.pic_2_tip_3,.pic_2_tip_4,.pic_3_tip_2,.pic_3_tip_3,.pic_3_tip_4,.pic_6_tip_2,.pic_7_tip_2,.pic_7_tip_3,.pic_8_tip_2{
-		font-size: 14px;
-		line-height: 12px;
+		font-size: 12px;
+		line-height: 11px;
 	}
 	.pic_4_tip_2,.pic_5_tip_2{
 		font-size: 14px;
@@ -921,7 +921,7 @@
 		padding-top: 10px;
 	}
 	.pic_2_tip_2,.pic_2_tip_3,.pic_2_tip_4,.pic_3_tip_2,.pic_3_tip_3,.pic_3_tip_4,.pic_6_tip_2,.pic_7_tip_2,.pic_7_tip_3,.pic_8_tip_2{
-		font-size: 13px;
+		font-size: 11px;
 		line-height: 10px;
 	}
 	.pic_4_tip_2,.pic_5_tip_2{
