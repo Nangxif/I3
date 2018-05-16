@@ -1,20 +1,20 @@
 @font-face {
 	font-family: 'Source-Han-Ligh';
-	src: url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46865/5af3e2d2f629d911a4b16b96.gif?r=74326354797');
-	src: url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46865/5af3e2d2f629d911a4b16b96.gif?r=74326354797?#iefix') format('embedded-opentype'),
-	url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46865/5af3e2d2f629d911a4b16b96.png?r=74326354797') format('woff2'),
-	url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46865/5af3e2d2f629d911a4b16b96.bmp?r=74326354797') format('woff'),
-	url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46865/5af3e2d2f629d911a4b16b96.jpg?r=74326354797') format('truetype');
-	font-weight: normal;font-style: normal;
+	src: url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46865/5afa7df5f629d910dce29dd7.gif?r=74759285766');
+	src: url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46865/5afa7df5f629d910dce29dd7.gif?r=74759285766?#iefix') format('embedded-opentype'),
+	url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46865/5afa7df5f629d910dce29dd7.png?r=74759285766') format('woff2'),
+	url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46865/5afa7df5f629d910dce29dd7.bmp?r=74759285766') format('woff'),
+	url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46865/5afa7df5f629d910dce29dd7.jpg?r=74759285766') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
-
 @font-face {
 	font-family: 'SiYuanRegular';
-	src: url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46827/5af4de07f629dd11a4d2bbdf.gif?r=74390663203');
-	src: url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46827/5af4de07f629dd11a4d2bbdf.gif?r=74390663203?#iefix') format('embedded-opentype'),
-	url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46827/5af4de07f629dd11a4d2bbdf.png?r=74390663203') format('woff2'),
-	url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46827/5af4de07f629dd11a4d2bbdf.bmp?r=74390663203') format('woff'),
-	url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46827/5af4de07f629dd11a4d2bbdf.jpg?r=74390663203') format('truetype');
+	src: url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46827/5afa7da5f629d910dce29dd6.gif?r=74759205891');
+	src: url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46827/5afa7da5f629d910dce29dd6.gif?r=74759205891?#iefix') format('embedded-opentype'),
+	url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46827/5afa7da5f629d910dce29dd6.png?r=74759205891') format('woff2'),
+	url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46827/5afa7da5f629d910dce29dd6.bmp?r=74759205891') format('woff'),
+	url('http://cdn.webfont.youziku.com/webfonts/nomal/117786/46827/5afa7da5f629d910dce29dd6.jpg?r=74759205891') format('truetype');
 	font-weight: normal;font-style: normal;
 }
 @media screen and (min-width: 768px){
@@ -569,7 +569,7 @@
 	top:0%;
 	left: -25%;
 	opacity: 0;
-	padding-top:13%; 
+	padding-top:10%; 
 }
 .pic_9_photos_2{
 	top:0%;
@@ -941,9 +941,65 @@
 		top: 18.1111%;
 		left: 44.51875%;
 	}
+	.detail-header h3{
+		float: left;
+		padding-top: 10px;
+	}
+	.detail-header{
+		height: 58px;
+	}
+	.detail-header ul{
+		padding-top: 17px;
+	}
+	.footer-content .contain dd{
+		padding-left: 0px !important;	
+	}
 }
 
 
 .brand-logo img,.layer-popup img,.imgs-mask img{
 	position: static;
+}
+.to-top:hover{
+	opacity: 1 !important;
+}
+
+
+#parameter{
+	display: none;
+}
+.topic{
+	height: 100%;
+}
+.detail-header ul{
+	height: 100%;
+	padding-top: 2.2%;
+}
+.detail-header ul li{
+	height: 100%;
+}
+.detail-header ul li a{
+	display: block;
+	height: 100%;
+}
+.bottom_line{
+	border-bottom: 4px solid #e60012;
+}
+.detail-header li:last-child a{
+	margin-left: 0px;
+	margin-top: -2px;
+	border-bottom:0px;
+	height: 65%; 
+	width: 70px;
+	text-align: center;
+	line-height: 27px;
+	color:white;
+	background: -webkit-linear-gradient(#e60012, #c40413); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(#e60012, #c40413); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#e60012, #c40413); /* Firefox 3.6 - 15 */
+	background: linear-gradient(#e60012, #c40413); /* 标准的语法 */
+}
+.detail-header li:last-child a:hover{
+	background:#e60012;
+	color: white;
 }

@@ -94,7 +94,7 @@ $(function(){
 
 
 		//第三个界面的动画
-		if($(document).scrollTop()<3/5*($(".pic_3").offset().top)||$(document).scrollTop()>($(".pic_4").offset().top)){
+		if($(document).scrollTop()<2/5*($(".pic_3").offset().top)||$(document).scrollTop()>($(".pic_4").offset().top)){
 			$(".pic_3_tip_1").stop();
 			$(".pic_3_tip_2").stop();
 			$(".pic_3_tip_3").stop();
@@ -120,7 +120,7 @@ $(function(){
 
 
 		//第四个界面的动画
-		if($(document).scrollTop()<4/5*($(".pic_4").offset().top)||$(document).scrollTop()>9/10*($(".pic_5").offset().top)){
+		if($(document).scrollTop()<2/3*($(".pic_4").offset().top)||$(document).scrollTop()>9/10*($(".pic_5").offset().top)){
 			$(".pic_4_tip_1").stop();
 			$(".pic_4_tip_2").stop();
 			$(".pic_4_photos").stop();
@@ -147,7 +147,7 @@ $(function(){
 
 
 		//第五个界面的动画
-		if($(document).scrollTop()<4/5*($(".pic_5").offset().top)||$(document).scrollTop()>11/12*($(".pic_6").offset().top)){
+		if($(document).scrollTop()<5/7*($(".pic_5").offset().top)||$(document).scrollTop()>11/12*($(".pic_6").offset().top)){
 			$(".pic_5_tip_1").stop();
 			$(".pic_5_tip_2").stop();
 			$(".pic_5_photo").stop();
@@ -198,7 +198,7 @@ $(function(){
 
 
 		//第七个界面的动画
-		if($(document).scrollTop()<9/10*($(".pic_7").offset().top)||$(document).scrollTop()>9/10*($(".pic_8").offset().top)){
+		if($(document).scrollTop()<9/11*($(".pic_7").offset().top)||$(document).scrollTop()>9/10*($(".pic_8").offset().top)){
 			$(".pic_7_tip_1").stop();
 			$(".pic_7_tip_2").stop();
 			$(".pic_7_tip_3").stop();
@@ -219,7 +219,7 @@ $(function(){
 		}
 
 		//第八个界面的动画
-		if($(document).scrollTop()<9/10*($(".pic_8").offset().top)||$(document).scrollTop()>9/10*($(".pic_9").offset().top)){
+		if($(document).scrollTop()<9/11*($(".pic_8").offset().top)||$(document).scrollTop()>9/10*($(".pic_9").offset().top)){
 			$(".pic_8_tip_1").stop();
 			$(".pic_8_tip_2").stop();
 			$(".pic_8_tip_1").css({"margin-top":"1%","opacity":"0"});
@@ -235,7 +235,7 @@ $(function(){
 			}
 		}
 		//第九个界面的动画
-		if($(document).scrollTop()<9/10*($(".pic_9").offset().top)){
+		if($(document).scrollTop()<11/13*($(".pic_9").offset().top)){
 			$(".pic_9_photos_1").stop();
 			$(".pic_9_photos_2").stop();
 			$(".pic_9_photos_3").stop();
@@ -318,4 +318,19 @@ $(function(){
 			})
 		}
 	}
+
+
+
+	$("#showindex").on('click',function(){
+		$("#index").fadeIn();
+		$("#parameter").fadeOut();
+    	$("#showindex").find("a").addClass("bottom_line");
+    	$("#showparameter").find("a").removeClass("bottom_line");
+	})
+	$("#showparameter").on('click',function(){
+		$("#index").fadeOut();
+		$("#parameter").fadeIn();
+    	$("#showindex").find("a").removeClass("bottom_line");
+    	$("#showparameter").find("a").addClass("bottom_line");
+	})
 })
