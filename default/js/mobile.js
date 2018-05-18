@@ -1,4 +1,5 @@
 $(function(){
+	document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + 'px';
 	$(".content").css({"font-size":document.documentElement.style.fontSize});
 	var font=document.documentElement.style.fontSize.substring(0,document.documentElement.style.fontSize.length-2)*0.25+"px";
 	$(".page_3_photos>div").css({"font-size":font});
@@ -339,33 +340,69 @@ $(function(){
 
 
 
-	// document.getElementById('popup').addEventListener('touchstart', function (event) {  
-	//     //判断条件,条件成立才阻止背景页面滚动,其他情况不会再影响到页面滚动  
-	//     if ($("#popup").css('display')=="block") {  
-	//         $('body').css({'position':'fixed','top':'0px'});
-	//     }else{
-	//     	$('body').css({'position':'static'});
-	//     }
-	// },false);
-
+	//旋转屏幕刷新
     window.onorientationchange=function(){
     	location.reload();
     }
 
 
-    $("#index").on('touchstart',function(){
-    	$(".content").fadeIn();
-    	$("#index").find('span').addClass('on');
-    	$(".contents").fadeOut();
-    	$("#parameter").find('span').removeClass('on');
+    $("#indexbtn").on('touchstart',function(){
+    	$(".indexmobile").fadeIn();
+    	$("#indexbtn").find('span').addClass('on');
+    	$(".parametermobile").fadeOut();
+    	$("#parameterbtn").find('span').removeClass('on');
     	$(".index-footer").css({"padding-top":"25px"});
     })
 
-    $("#parameter").on('touchstart',function(){
-    	$(".contents").fadeIn();
-    	$("#parameter").find('span').addClass('on');
-    	$(".content").fadeOut();
-    	$("#index").find('span').removeClass('on');
+    $("#parameterbtn").on('touchstart',function(){
+    	$(".parametermobile").fadeIn();
+    	$("#parameterbtn").find('span').addClass('on');
+    	$(".indexmobile").fadeOut();
+    	$("#indexbtn").find('span').removeClass('on');
     	$(".index-footer").css({"padding-top":"0px"});
     })
+
+
+
+
+
+
+
+    $(".logo").on("click",function(){
+        if($(this).hasClass('up')){
+            $(".products-menu").css({'height':'0','transform':'translateY(-300px)', 'opacity':0});
+            $(this).removeClass('up');
+        }else{
+            $(".products-menu").css({'height':'151px','transform':'translateY(0)', 'opacity':1});
+            $(this).addClass('up');
+        }
+    });
+    $(".page_1,.page_10").on('touchstart',function(){
+    	$(".products-menu").css({'height':'0','transform':'translateY(-300px)', 'opacity':0});
+        $(".logo").removeClass('up');
+    });
+
+	$(".mod-list li").on('touchstart',function(){
+        $(".mod-list li").css("background","rgba(255,255,255,.95)");
+		$(this).css("background","#ebebeb");
+	});
+    $(".mod-list li").on('touchend',function(){
+        $(this).css("background","rgba(255,255,255,.95)");
+    });
+
+    //滚动，产品导航在顶部
+    $(window).scroll(function(){
+
+        //判断产品界面产品二级导航是否展开，若展开则隐藏二级产品菜单。
+        if($(".dropdown-list").hasClass('up')){
+             $(".products-menu").css({'height':'0','transform':'translateY(-300px)','opacity':0});
+             $(".dropdown-list").removeClass('up');
+        }
+
+        if($(this).scrollTop() > 60){
+            $(".nav-header").css("position","fixed");
+        }else{
+            $(".nav-header").css("position","relative");
+        }
+    });  
 })

@@ -21,7 +21,7 @@ body{
 	background: white !important;
 	width: 100%;
 }
-.content{
+.indexmobile{
 	font-family: 'Source-Han-Ligh';
 }
 /*
@@ -30,10 +30,11 @@ body{
 .page_1{
 	width: 100%;
 	padding-top: 146.6667%;
-	background-image: url('../img/background1.jpg');
+	background-image: url('../img/mobile/background1.jpg');
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	position: relative; 
+	color: black;
 }
 /*第一个页面文字*/
 .page_1_tip_1{
@@ -77,10 +78,11 @@ body{
 .page_2{
 	width: 100%;
 	padding-top: 120%;
-	background-image: url('../img/background2.jpg');
+	background-image: url('../img/mobile/background2.jpg');
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	position: relative; 
+	color: black;
 }
 .page_2_tip_1{
 	position: absolute;
@@ -129,11 +131,12 @@ body{
 .page_3{
 	width: 100%;
 	padding-top: 146.6667%;
-	background-image: url('../img/background3.jpg');
+	background-image: url('../img/mobile/background3.jpg');
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	position: relative; 
 	text-align: center;
+	color: black;
 }
 .page_3_tip_1{
 	width: 100%;
@@ -211,11 +214,12 @@ body{
 .page_4{
 	width: 100%;
 	padding-top: 146.6667%;
-	background-image: url('../img/background4.jpg');
+	background-image: url('../img/mobile/background4.jpg');
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	position: relative; 
 	text-align: center;
+	color: black;
 }
 .page_4_tip_1{
 	width: 58.0666667%;
@@ -269,11 +273,12 @@ body{
 .page_5{
 	width: 100%;
 	padding-top: 146.6667%;
-	background-image: url('../img/background5.jpg');
+	background-image: url('../img/mobile/background5.jpg');
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	position: relative; 
 	text-align: center;
+	color: black;
 }
 .page_5_tip_1{
 	width: 100%;
@@ -347,11 +352,12 @@ body{
 .page_6{
 	width: 100%;
 	padding-top: 133.335%;
-	background-image: url('../img/background6.jpg');
+	background-image: url('../img/mobile/background6.jpg');
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	position: relative; 
 	text-align: center;
+	color: black;
 }
 .page_6_tip_1{
 	width: 100%;
@@ -391,11 +397,12 @@ body{
 .page_7{
 	width: 100%;
 	padding-top: 213.335%;
-	background-image: url('../img/background7.jpg');
+	background-image: url('../img/mobile/background7.jpg');
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	position: relative; 
 	text-align: center;
+	color: black;
 }
 .page_7_tip_1{
 	width: 100%;
@@ -469,11 +476,12 @@ body{
 .page_8{
 	width: 100%;
 	padding-top: 130.668%;
-	background-image: url('../img/background8.jpg');
+	background-image: url('../img/mobile/background8.jpg');
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	position: relative; 
 	text-align: center;
+	color: black;
 }
 .page_8_tip_1{
 	width: 100%;
@@ -512,13 +520,14 @@ body{
 .page_9{
 	width: 100%;
 	padding-top: 139.2%;
-	background-image: url('../img/background9.jpg');
+	background-image: url('../img/mobile/background9.jpg');
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	position: relative; 
 	text-align: center;
 	font-size: 0px;
 	overflow: hidden;
+	color: black;
 }
 .page_9 img{
 	position: static;
@@ -577,7 +586,7 @@ body{
 /*
 第十个页面
  */
-.contents{
+.parametermobile{
 	display: none;
 }
 .page_10{
@@ -586,6 +595,7 @@ body{
 	position: relative; 
 	text-align: center;
 	overflow: hidden;
+	color: black;
 }
 .contains{
 	padding: 0px 8% 0px 8%;

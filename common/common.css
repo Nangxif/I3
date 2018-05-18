@@ -21,3 +21,9 @@ img{
 	position: absolute;
 	z-index: 1;
 }
+#pc{
+	display: none;
+}
+#mobile{
+	display: none;
+}

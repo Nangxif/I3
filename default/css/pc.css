@@ -59,7 +59,7 @@ nav .topic h3{
 	position: relative;
 	width: 100%;
 	padding-top: 52.08%;
-	background-image: url('../img/background1.jpg');
+	background-image: url('../img/pc/background1.jpg');
 	background-size: 100% 100%;
 	background-repeat: no-repeat; 
 	overflow: hidden;
@@ -82,7 +82,7 @@ nav .topic h3{
 	position: relative;
 	width: 100%;
 	padding-top: 41.6%;
-	background-image: url('../img/background2.jpg');
+	background-image: url('../img/pc/background2.jpg');
 	background-size: 100% 100%;
 	background-repeat: no-repeat; 
 	overflow: hidden;
@@ -92,7 +92,7 @@ nav .topic h3{
 	position: relative;
 	width: 100%;
 	padding-top: 43%;
-	background-image: url('../img/background3.jpg');
+	background-image: url('../img/pc/background3.jpg');
 	background-size: 100% 100%;
 	background-repeat: no-repeat; 
 	overflow: hidden;
@@ -102,7 +102,7 @@ nav .topic h3{
 	position: relative;
 	width: 100%;
 	padding-top: 43%;
-	background-image: url('../img/background4.jpg');
+	background-image: url('../img/pc/background4.jpg');
 	background-size: 100% 100%;
 	background-repeat: no-repeat; 
 	overflow: hidden;
@@ -112,7 +112,7 @@ nav .topic h3{
 	position: relative;
 	width: 100%;
 	padding-top: 43%;
-	background-image: url('../img/background5.jpg');
+	background-image: url('../img/pc/background5.jpg');
 	background-size: 100% 100%;
 	background-repeat: no-repeat; 
 	overflow: hidden;
@@ -122,7 +122,7 @@ nav .topic h3{
 	position: relative;
 	width: 100%;
 	padding-top: 56.2%;
-	background-image: url('../img/background6.jpg');
+	background-image: url('../img/pc/background6.jpg');
 	background-size: 100% 100%;
 	background-repeat: no-repeat; 
 	overflow: hidden;
@@ -132,7 +132,7 @@ nav .topic h3{
 	position: relative;
 	width: 100%;
 	padding-top: 46.88%;
-	background-image: url('../img/background7.jpg');
+	background-image: url('../img/pc/background7.jpg');
 	background-size: 100% 100%;
 	background-repeat: no-repeat; 
 	overflow: hidden;
@@ -142,7 +142,7 @@ nav .topic h3{
 	position: relative;
 	width: 100%;
 	padding-top: 51.806%;
-	background-image: url('../img/background8.jpg');
+	background-image: url('../img/pc/background8.jpg');
 	background-size: 100% 100%;
 	background-repeat: no-repeat; 
 	overflow: hidden;
@@ -152,7 +152,7 @@ nav .topic h3{
 	position: relative;
 	width: 100%;
 	padding-top: 97.031%;
-	background-image: url('../img/background9.jpg');
+	background-image: url('../img/pc/background9.jpg');
 	background-size: 100% 100%;
 	background-repeat: no-repeat; 
 	overflow: hidden;
@@ -994,7 +994,7 @@ nav .topic h3{
 }
 
 
-#parameter{
+#parameterpc{
 	display: none;
 }
 .topic{

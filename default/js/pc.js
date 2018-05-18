@@ -322,14 +322,14 @@ $(function(){
 
 
 	$("#showindex").on('click',function(){
-		$("#index").fadeIn();
-		$("#parameter").fadeOut();
+		$("#indexpc").fadeIn();
+		$("#parameterpc").fadeOut();
     	$("#showindex").find("a").addClass("bottom_line");
     	$("#showparameter").find("a").removeClass("bottom_line");
 	})
 	$("#showparameter").on('click',function(){
-		$("#index").fadeOut();
-		$("#parameter").fadeIn();
+		$("#indexpc").fadeOut();
+		$("#parameterpc").fadeIn();
     	$("#showindex").find("a").removeClass("bottom_line");
     	$("#showparameter").find("a").addClass("bottom_line");
 	})
