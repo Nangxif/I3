@@ -395,14 +395,16 @@ $(function(){
 
         //判断产品界面产品二级导航是否展开，若展开则隐藏二级产品菜单。
         if($(".dropdown-list").hasClass('up')){
-             $(".products-menu").css({'height':'0','transform':'translateY(-300px)','opacity':0});
+             $(".products-menu").css({'height':'0','transform':'translateY(-300px)','opacity':0.7});
              $(".dropdown-list").removeClass('up');
         }
 
         if($(this).scrollTop() > 60){
             $(".nav-header").css("position","fixed");
+            $("#mobiletop").css("display","none");
         }else{
             $(".nav-header").css("position","relative");
+            $("#mobiletop").css("display","block");
         }
     });  
 })

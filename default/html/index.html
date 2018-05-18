@@ -49,8 +49,8 @@
 		<!-- PC 端html代码 -->
 		<div id="pc">
 			<!--头部部分-->
-			<header>
-				<div class="container">
+			<header id="pctop">
+				<div class="container" id="pctopcontain">
 					<nav>
 						<!-- Brand and toggle get grouped for better mobile display -->
 						<div class="navbar-header">
@@ -82,7 +82,6 @@
 								<li class="header-second-nav"><a href="https://dushulang.tmall.com/" target="_blank">天猫商城</a></li>
 								<li class="header-second-nav"><a href="https://dushulang.suning.com/ " target="_blank">苏宁易购</a></li>
 								<li onclick="location.href='http://ebag.readboy.com/'" ><a href="http://ebag.readboy.com/">智慧课堂</a></li>
-
 							</ul>
 						</div>
 						<div class="user-wrap">
@@ -108,19 +107,23 @@
 					</form>
 					</div>
 				</div>
-				<nav class="detail-header j_affix" >
-					<div class="container topic">
-						<h3>智能教育机器人<span style="font-family: '幼圆'; font-weight:600;">I3</span></h3>
-						<ul>
-							<li id="showindex"><a href="" class="cans bottom_line">概览</a></li>
-							<li id="showparameter"><a href="" class="cans">规格参数</a></li>
-							<!-- <li><span class="icon icon-show"></span><a href="javascript:;" class="pic-show">图片展示</a></li> -->
-							<li><a href="javascript:;" onclick="$('#popup').css('display', 'block');">立即购买</a></li>
-						</ul>
-					</div>
-				</nav>
 			</header>    <!-- 头部部分结束 -->
 
+
+
+
+
+			<nav class="detail-header j_affix" id="pcfixed">
+				<div class="container topic">
+					<h3>智能教育机器人<span style="font-family: '幼圆'; font-weight:600;">I3</span></h3>
+					<ul>
+						<li id="showindex"><a href="" class="cans bottom_line">概览</a></li>
+						<li id="showparameter"><a href="" class="cans">规格参数</a></li>
+						<!-- <li><span class="icon icon-show"></span><a href="javascript:;" class="pic-show">图片展示</a></li> -->
+						<li><a href="javascript:;" onclick="$('#popup').css('display', 'block');">立即购买</a></li>
+					</ul>
+				</div>
+			</nav>
 			<!--页面主体内容-->
 			<div  id="pbody" class="bg-color-white detail">
 				<!--弹框html开始
@@ -399,7 +402,7 @@
 		<div id="mobile">
 			<!--头部部分-->
 			<header>
-				<div class="container">
+				<div class="container" id="mobiletop">
 					<nav>
 						<!-- Brand and toggle get grouped for better mobile display -->
 						<div class="navbar-header">
@@ -457,35 +460,36 @@
 					</form>
 					</div>
 				</div>
+				<nav class="nav-header">
+				    <div class="nav-header-menu clearfix">
+				    	<a class="logo" href="javascript:;" style="font-family: 'SiYuanRegular'">智能教育机器人<span style="font-family: '幼圆'; font-weight:600;">I3</span><span class="caret"></span></a>
+				        <!--<div class="buy-btn"><a href="https://item.jd.com/10866625960.html" target="_black">立即购买</a></div>-->
+				    </div>
+				    <div class="products-menu">
+				        <ul>
+				            <li>
+				                 <a href="javascript:;" class="item" id="indexbtn">
+				                    <span class="name on">概述</span>
+				                </a>
+				            </li>
+				            <li>
+				                <a href="javascript:;" class="item" id="parameterbtn">
+				                    <span class="name ">产品参数</span>
+				                </a>
+				            </li>
+				            <li>
+				                <a href="javascript:;" onclick="$('#popups').css('display', 'block');" class="item">
+				                    <span class="name ">立即购买</span>
+				                </a>
+				            </li>
+				        </ul>
+				    </div>
+				</nav>
 			</header>    
 
 
 
-			<nav class="nav-header">
-			    <div class="nav-header-menu clearfix">
-			    	<a class="logo" href="#" style="font-family: 'SiYuanRegular'">智能教育机器人<span style="font-family: '幼圆'; font-weight:600;">I3</span><span class="caret"></span></a>
-			        <!--<div class="buy-btn"><a href="https://item.jd.com/10866625960.html" target="_black">立即购买</a></div>-->
-			    </div>
-			    <div class="products-menu">
-			        <ul>
-			            <li>
-			                 <a href="javascript:;" class="item" id="indexbtn">
-			                    <span class="name on">概述</span>
-			                </a>
-			            </li>
-			            <li>
-			                <a href="javascript:;" class="item" id="parameterbtn">
-			                    <span class="name ">产品参数</span>
-			                </a>
-			            </li>
-			            <li>
-			                <a href="javascript:;" onclick="$('#popups').css('display', 'block');" class="item">
-			                    <span class="name ">立即购买</span>
-			                </a>
-			            </li>
-			        </ul>
-			    </div>
-			</nav>
+			
 
 			<!-- 头部部分结束 -->
 			<!--弹框html开始

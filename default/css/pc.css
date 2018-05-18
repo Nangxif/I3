@@ -33,25 +33,38 @@ body{
 header nav{
 	position: static;
 }
+header{
+	position: absolute !important;
+}
 .detail-header{
 	width: 100%;
-	height: 25%;
+	height: 50px;
 	overflow: visible;
+	background-color: rgba(255,255,255,0.7) !important;
+	z-index: 10;
 }
 .affix{
 	position: static;
 }
 .detail-header h3{
 	height: 100%;
+	font-size: 20px;
 }
 nav .topic{
 	width:1170px;
+	height: 100%;
+	padding-top:10px;
 }
 nav .topic h3{
-	margin-top: 2%;
-	margin-bottom: 2%;
+	margin-top: 0.4%;
+	margin-bottom: 0%;
 }
-
+.detail-header ul li:before{
+	height: 20px;
+}
+#showindex a,#showparameter a{
+	padding-top: 2px;
+}
 
 
 
@@ -983,9 +996,6 @@ nav .topic h3{
 	}
 }
 
-.detail-header.affix{
-	top:auto !important;
-}
 .brand-logo img,.layer-popup img,.imgs-mask img{
 	position: static;
 }
@@ -1001,9 +1011,10 @@ nav .topic h3{
 	width: 100%;
 }
 .detail-header ul{
-	padding-top: 2%;
-	padding-bottom:2%;
+	padding-top: 0%;
+	padding-bottom:0%;
 	margin-bottom: 0px;
+	font-size: 16px;
 }
 .detail-header ul li{
 	height: 100%;
@@ -1011,6 +1022,7 @@ nav .topic h3{
 .detail-header ul li a{
 	display: block;
 	height: 100%;
+	padding-bottom:11px;
 }
 .bottom_line{
 	border-bottom: 4px solid #e60012;
@@ -1044,5 +1056,6 @@ nav .topic h3{
 	nav .topic{
 		padding-left:12px; 
 		padding-right:12px; 
+		padding-top:10px;
 	}
 }

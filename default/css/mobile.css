@@ -774,6 +774,12 @@ body,.nav-header{
 }
 
 
+header{
+	position: absolute !important;
+}
+.nav-header{
+	background: rgba(255,255,255,0.7) !important;
+}
 .nav-header-menu{
 	padding:0px 11px !important;
 }
@@ -786,7 +792,9 @@ body,.nav-header{
 .footer-content .contain{
 	margin:0 auto !important;
 }
-
+.products-menu{
+	background-color: rgba(255,255,255,0.7);
+}
 
 
 

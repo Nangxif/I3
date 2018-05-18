@@ -333,4 +333,16 @@ $(function(){
     	$("#showindex").find("a").removeClass("bottom_line");
     	$("#showparameter").find("a").addClass("bottom_line");
 	})
+
+	$("#pcfixed").css({"position":"absolute","top":$("#pctop").height()+"px"});
+	//滚动，产品导航在顶部
+    $(window).scroll(function(){
+        if($(this).scrollTop() > $("#pctopcontain").height()){
+            $("#pcfixed").css({"position":"fixed","top":"0px"});
+            $("#pctop").css("display","none");
+        }else{
+            $("#pcfixed").css({"position":"absolute","top":$("#pctop").height()+"px"});
+            $("#pctop").css("display","block");
+        }
+    });  
 })
