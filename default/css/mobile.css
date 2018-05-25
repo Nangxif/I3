@@ -592,6 +592,7 @@ body{
 .page_10{
 	width: 100%;
 	padding-top: 306.667%;
+	margin-top: 46px;
 	position: relative; 
 	text-align: center;
 	overflow: hidden;
@@ -833,4 +834,16 @@ header{
 }
 .index-footer{
 	padding-top:25px;
+}
+
+.buy-btn{
+	top: 11px;
+	right: 18px;
+	width: 70px;
+	height: 28px;
+	line-height: 28px;
+	border-radius:14px;
+}
+.buy-btn a{
+	font-size: 32%;
 }
